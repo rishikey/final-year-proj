@@ -1,5 +1,6 @@
 
  import Functionn from './Functionn.js'  
+
 /* import './new.css' */
 import './Content.css'
 export default function Content() {
@@ -24,6 +25,12 @@ export default function Content() {
                     <iframe className="responsive-iframe " name="player_1" id="player_1" src="https://www.youtube.com/embed/3NAr_qhi6kE?rel=0" title="ye window dikhayega"></iframe>
                 </div>
                 
+                {/* word of the day */}
+                <div>
+                    
+                </div>
+
+
                 
                 
                 <div>
@@ -36672,7 +36679,7 @@ export default function Content() {
                     </div>
                 </div>
                 
-                <hr/>
+
             </div>
             {/* End of MAIN */}
             <div >

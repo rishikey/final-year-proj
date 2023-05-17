@@ -4,8 +4,13 @@
 
 
 
-
+import './Labsection/Lab.js'
 export default function navbar(){
+  
+    const openHTMLFile = () => {
+      window.open('/Users/__rishikey/projects/cp_codes/signlang/src/components/Labsection/Lab.html', '_blank');
+    };
+  
   return (  
 
   <>
@@ -22,7 +27,7 @@ export default function navbar(){
         <a className="nav-link" href="/">Home <span className="sr-only"></span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/">Labs</a>
+        <a className="nav-link" onClick={openHTMLFile}>Labs</a>
       </li>
       <li className="nav-item dropdown ml-auto  " style={{align:"right"}}>
         <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
